@@ -29,14 +29,14 @@ for x in range(5, 1, -3):
 
 # For Loops through Lists
 
-# If we want to iterate through a list, we could use the range function and send in the length of the list as the stopping value.
+# To iterate through a list, use the range function and send in the length of the list as the stopping value.
 
 my_list = ["abc", 123, "xyz"]
 for i in range(0, len(my_list)):
     print(i, my_list[i])
 # output: 0 abc, 1 123, 2 xyz
 
-# If we are not interested in the index values and want to just see the values of each item in the list in order, we can actually loop to get the values of the list directly.
+# If not interested in the index values and want to just see the values of each item in the list in order, loop to get the values of the list directly.
 
 for v in my_list:
     print(v)
@@ -44,7 +44,7 @@ for v in my_list:
 
 # For Loops through Dictionaries
 
-# When we iterate through a dictionary, the iterator is each of the keys of the dictionary.
+# To iterate through a dictionary, the iterator is each of the keys of the dictionary.
 
 # KEYS
 
@@ -101,9 +101,11 @@ else:
 
 # Loop Control
 
-# Loops, breaks, and continues are all a part of control flow as well. Control flow is the cornerstone of most programming languages.
+# Loops, breaks, and continues are all a part of control flow as well. 
+# Control flow is the cornerstone of most programming languages.
 
-# Break: exits the current loop prematurely, resuming execution at the first post-loop statement. The break statement can be used in both while and for loops.
+# Break: exits the current loop prematurely, resuming execution at the first post-loop statement. 
+# The break statement can be used in both while and for loops.
 
 # When loops are nested, a break will only exit from the innermost loop.
 
@@ -115,7 +117,8 @@ for val in "string":
 
 # Notice that when the loop got to the letter "i", we stopped looping.
 
-# Continue: immediately returns control to the beginning of the loop. In other words, the continue statement rejects, or skips, all the remaining statements in the current iteration of the loop, and continues normal execution at the top of the loop.
+# Continue: immediately returns control to the beginning of the loop.
+# Continue statement rejects, or skips, all the remaining statements in the current iteration of the loop, and continues normal execution at the top of the loop.
 
 # The continue statement is very useful when you want to skip specific iteration(s), but still keep looping to the end.
 
