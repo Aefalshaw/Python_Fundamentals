@@ -37,7 +37,7 @@ if x < 10:
 # Comparison and Logic Operators
 
 # ==	    Checks if the value of two operands are equal	                                                    1 == 2 => False                     1 == 1 => True
-# !=	    Checks if the value of two operands are not equal	                                                1 != 2 => True                      1 != 1 => False
+# !=	    Checks if the value of two operands are not equal	                                                    1 != 2 => True                      1 != 1 => False
 # >	        Checks if the value of left operand is greater than the value of right operand	                    1 > 2 => False                      2 > 1 => True
 # <	        Checks if the value of left operand is less than the value of right operand	                        1 < 2 => True                       2 < 1 => False
 # >=	    Checks if the value of left operand is greater than or equal to the value of right operand	        1 >= 2 => False                     2 >= 2 => True
